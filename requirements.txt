@@ -1,0 +1,4 @@
+mindsdb_sdk
+python-dotenv
+Flask
+requests
