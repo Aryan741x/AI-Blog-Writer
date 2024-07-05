@@ -1,0 +1,126 @@
+:root {
+  --lp-background-start: 16, 21, 23;
+  --lp-background-end: 32, 38, 57;
+}
+
+html,body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(112.1deg, rgb(var(--lp-background-start)) 11.4%, rgb(var(--lp-background-end)) 70.2%);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid #ccc;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title,
+.intro,
+.body,
+.conclusion {
+  margin-top: 5px;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+
+pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 20px;
+  color: #333;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h2{
+  align-items: center;
+}
+
+.body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.generate-another {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.generate-another a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.beautiful-button {
+  position: relative;
+  left: 35%;
+  display: inline-block;
+  background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 28px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: button-shimmer 2s infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+.beautiful-button:hover {
+  background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
+}
+
+.beautiful-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes button-shimmer {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+/* Particle animation */
+@keyframes button-particles {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
