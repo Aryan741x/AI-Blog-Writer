@@ -74,16 +74,16 @@ docker run --name mindsdb_container -p 47334:47334 -p 47335:47335 mindsdb/mindsd
 
 
 
-5. **Run Docker**
+5. **Run Docker**(It might take some time to setup even after started.)
 ```bash
 docker start mindsdb_container
 ```
 
-5. **Run Flask Server(port:5000)**
+6. **Run Flask Server(port:5000)**
 ```bash
 python app.py
 ```
-6. **View the Project at**
+7. **View the Project at**
 ```bash
 https://localhost:5000
 ```
