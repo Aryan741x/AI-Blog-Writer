@@ -9,8 +9,6 @@ Welcome to AI-Blog Writer, your intelligent assistant for generating high-qualit
 - **User-Friendly Interface**: Built with Flask, providing a simple and intuitive user experience.
 - **Pdf Generation**:Download Blog Post in pdf format.
 
-- **User-Friendly Interface**: Simple and intuitive web interface.
-
 ## Technology Stack
 
 AI-Blog Writer is built using a combination of cutting-edge technologies and tools:
