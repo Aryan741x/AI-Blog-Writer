@@ -1,6 +1,6 @@
 # AI-Blog Writer: Revolutionizing Content Creation
 
-Welcome to AI-Blog Writer, your intelligent assistant for generating high-quality blog posts. This application leverages the power of MindsDB to generate content based on the topics you provide, making it easier and faster to create engaging blog posts.
+Welcome to AI-Blog Writer, your intelligent assistant for generating high-quality blog posts. This application leverages the power of MindsDB to generate content based on the topics you provide, making it easier and faster to create engaging blog posts.Also you can Download the blog (pdf)for FREE.
 
 ## Features
 
