@@ -28,8 +28,15 @@
         <pre>{{ conclusion }}</pre>
       </div>
     </div>
-    <div class="generate-another beautiful-button">
-      <a href="/">Generate Another</a>
+    <div class="buttons">
+      <div class="generate-another beautiful-button">
+        <a href="/">Generate Another</a>
+      </div>
+      {% if pdf_ready %}
+      <form action="{{ url_for('download', filename=pdf_filename) }}" method="get">
+        <button type="submit" class="generate-another beautiful-button">Download PDF</button>
+      </form>
+      {% endif %}
     </div>
   </div>
 </body>

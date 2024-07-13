@@ -76,8 +76,6 @@ h2{
 }
 
 .beautiful-button {
-  position: relative;
-  left: 35%;
   display: inline-block;
   background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
   color: white;
@@ -123,4 +121,10 @@ h2{
   100% {
     background-position: right bottom;
   }
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
