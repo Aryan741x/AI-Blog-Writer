@@ -81,7 +81,7 @@ docker start mindsdb_container
 
 6. **Run Flask Server(port:5000)**
 ```bash
-python app.py
+python main.py
 ```
 7. **View the Project at**
 ```bash
